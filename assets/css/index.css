@@ -54,6 +54,10 @@ body {
     margin-bottom: 30px;
 }
 
+.info-label{
+    margin-right: 12px;
+}
+
 
 .profile-info {
     background: #f9f9f9;
@@ -161,21 +165,13 @@ h4 {
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     overflow: hidden;
-
+    font-family: 'Poppins', sans-serif;
     background: rgb(235,245,238);
 background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1) 94%);
 
 
-  width: 90%;
-    max-width: 350px;
-    background: #ECEBF3;
-    border-radius: 18px;
-    padding: 25px;
-    text-align: center;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    overflow: hidden;
-    font-family: 'Poppins', sans-serif;
+  
+
 }
 
 .profile-card:hover {
@@ -242,37 +238,187 @@ background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1)
 
 @media (max-width: 768px) {
     .container {
-        padding-top: 80px; 
+        padding-top: 80px;
         display: flex;
         flex-wrap: wrap;
     }
+    .profile-card {
+        width: 90%;
+        max-width: 350px;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+            0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(235,245,238);
+        background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1) 94%);
+        margin-bottom: 50px;
+    }
+    .profile-card2 {
+        width: 90%;
+        max-width: 350px;
+        background: #ECEBF3;
+        border-radius: 18px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    }
 }
+
 @media (max-width: 430px) {
     .container {
         padding-top: 80px; 
         display: flex;
         flex-wrap: wrap;
     }
+    .profile-card {
+        width: 90%;
+        max-width: 350px;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+            0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(235,245,238);
+        background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1) 94%);
+        margin-bottom: 50px;
+    }
+    .profile-card2 {
+        width: 90%;
+        max-width: 350px;
+        background: #ECEBF3;
+        border-radius: 18px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    }
 }
+
+
+
 @media (max-width: 428px) {
     .container {
         padding-top: 80px; 
         display: flex;
         flex-wrap: wrap;
     }
+    .profile-card {
+        width: 90%;
+        max-width: 350px;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+            0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(235,245,238);
+        background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1) 94%);
+        margin-bottom: 50px;
+    }
+    .profile-card2 {
+        width: 90%;
+        max-width: 350px;
+        background: #ECEBF3;
+        border-radius: 18px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    }
 }
+
+
+
 @media (max-width: 390px) {
     .container {
         padding-top: 80px; 
         display: flex;
         flex-wrap: wrap;
     }
+    .profile-card {
+        width: 90%;
+        max-width: 350px;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+            0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(235,245,238);
+        background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1) 94%);
+        margin-bottom: 50px;
+    }
+    .profile-card2 {
+        width: 90%;
+        max-width: 350px;
+        background: #ECEBF3;
+        border-radius: 18px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+    }
 }
+
+
+
 @media (max-width: 375px) {
     .container {
         padding-top: 80px; 
         display: flex;
         flex-wrap: wrap;
+    }
+    .profile-card {
+        width: 90%;
+        max-width: 350px;
+        border-radius: 16px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+            0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        background: rgb(235,245,238);
+        background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1) 94%);
+        margin-bottom: 50px;
+    }
+    .profile-card2 {
+        width: 90%;
+        max-width: 350px;
+        background: #ECEBF3;
+        border-radius: 18px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
     }
 }
 

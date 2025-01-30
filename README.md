@@ -45,4 +45,5 @@ Each required element includes a `data-testid` attribute for easy testing. Here 
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/profile-card.git
+   git clone https://github.com/tripleAay/PROFILE-CARD.git
+   

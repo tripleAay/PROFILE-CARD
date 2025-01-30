@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s;
+}
+.base-body{
+    display: flex;
+    align-items: center;
+}
+.container{
+    background-color: red;
+}
+
+.light-theme {
+    background-color: #F5E960;
+}
+
+.dark-theme {
+    background-color: #39304A;
+    color: white;
+}
+
+.profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    transition: all 0.3s ease;
+}
+
+.dark-theme .profile-card {
+    background: #2C2C2C;
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-links a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #0073b1;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#themeToggle {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dark-theme #themeToggle {
+    background: white;
+    color: black;
+}

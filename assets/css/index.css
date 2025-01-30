@@ -10,16 +10,22 @@ body {
 }
 
 .container {
+   
+
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    padding-top: 50px; /* Adjust this value for spacing above */
+    gap: 20px;
 }
 
 
 
 .profile-card2 {
-    width: 350px;
+    width: 90%;
+    max-width: 350px;
     background: #ECEBF3;
     border-radius: 18px;
     padding: 25px;
@@ -145,9 +151,9 @@ h4 {
 
 
 .profile-card {
-    width: 320px;
-    height: 420px;
-    /* background: #FFFCFF; */
+    width: 90%;
+    max-width: 350px;
+   /* background: #FFFCFF; */
     border-radius: 16px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
         0 4px 6px rgba(0, 0, 0, 0.1);
@@ -158,6 +164,18 @@ h4 {
 
     background: rgb(235,245,238);
 background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1) 94%);
+
+
+  width: 90%;
+    max-width: 350px;
+    background: #ECEBF3;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .profile-card:hover {
@@ -168,8 +186,8 @@ background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1)
 
 
 .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
@@ -192,6 +210,7 @@ background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1)
     font-size: 1rem;
     color: #777;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 
@@ -218,4 +237,11 @@ background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1)
 
 .social-link:hover i {
     transform: scale(1.2);
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding-top: 80px; /* Increase spacing above */
+    }
 }

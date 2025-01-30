@@ -1,75 +1,227 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    transition: background-color 0.3s;
+    min-height: 100vh;
+    background-color: #033F63;
+    transition: background 0.3s ease-in-out;
+    padding: 20px;
 }
-.base-body{
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+profile-card {
+    width: 320px;
+    height: 420px;
+    background: #FFFCFF;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+        0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.profile-card2 {
+    width: 350px;
+    background: #ECEBF3;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Bio */
+.profile-bio {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Profile Info */
+.profile-info {
+    background: #f9f9f9;
+    padding: 8px 15px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
-}
-.container{
-    background-color: red;
-}
-
-.light-theme {
-    background-color: #F5E960;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
 }
 
-.dark-theme {
-    background-color: #39304A;
-    color: white;
+/* Hover effect on info blocks */
+.profile-info:hover {
+    background: #E2E8CE;
 }
 
-.profile-card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 300px;
-    transition: all 0.3s ease;
+/* Hover effect */
+.profile-card:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25), 
+                0 6px 8px rgba(0, 0, 0, 0.12); /* More depth on hover */
 }
 
-.dark-theme .profile-card {
-    background: #2C2C2C;
-    color: white;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-}
 
 .profile-card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 120px;
+    height: 150px;
     object-fit: cover;
+    object-position: center top;
+    margin-top: 30px;
+   
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    margin: 5px 0;
+    color: #333;
+}
+
+h4 {
+    font-size: 18px;
+    color: #777;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .social-links a {
-    margin: 0 5px;
     text-decoration: none;
     color: #0073b1;
-    font-size: 18px;
+    font-size: 22px;
+    transition: color 0.3s;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+.social-links a:hover {
+    color: #005582;
 }
 
-#themeToggle {
-    padding: 10px;
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
     background: black;
     color: white;
-    border: none;
-    cursor: pointer;
     border-radius: 5px;
+    transition: background 0.3s;
 }
 
-.dark-theme #themeToggle {
-    background: white;
+.theme-toggle:hover {
+    background: #333;
+}
+
+.dark-theme {
+    background-color: #1E1E1E;
     color: black;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Profile card styles */
+.profile-card {
+    width: 320px;
+    height: 420px;
+    background: #FFFCFF;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 
+                0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3), 
+                0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile picture styling */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+/* Profile name and title styling */
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.profile-title {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Social links styling */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link {
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-link:hover {
+    color: #F25F5C;
+}
+
+/* Add hover effects for the social icons */
+.social-link i {
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-link:hover i {
+    transform: scale(1.2);
 }

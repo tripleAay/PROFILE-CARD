@@ -1,49 +1,15 @@
-## Task Requirements
+Responsive Profile Card
 
-In this project, I created a **responsive Profile Card** using **HTML**, **CSS**, and **Vanilla JavaScript**. The Profile Card displays several elements about me, and each element is styled to be visually appealing and responsive.
+### Project Brief: Responsive Profile Card  
 
-### Required Elements
+This project features a **responsive Profile Card** built using **HTML, CSS, and Vanilla JavaScript**. The card displays key information about me in a visually appealing and responsive design.  
 
-Each required element includes a `data-testid` attribute for easy testing. Here are the elements that make up the profile card:
+### Key Features:  
+- **Profile Picture**: Displays a responsive image.  
+- **Full Name & Job Title**: Showcases my name and career role.  
+- **Short Bio**: Provides a brief introduction about me.  
+- **Current Location**: Displays my city and country.  
+- **Email Address**: Includes my professional email.  
+- **Social Links**: Links to my professional profiles.  
+- **Current Time in UTC**: Dynamically updates the UTC time.  
 
-1. **Profile Picture**  
-   - A profile picture is displayed with the attribute:  
-   `data-testid="profilePicture"`  
-   - The image is made responsive by adjusting either the width or height while maintaining the aspect ratio.
-
-2. **Full Name**  
-   - Your full name is displayed with the attribute:  
-   `data-testid="fullName"`
-
-3. **Job Title**  
-   - The job title (either your current job title or desired job title) is displayed with the attribute:  
-   `data-testid="jobTitle"`
-
-4. **Short Bio**  
-   - A short bio about yourself (50-100 words) is included with the attribute:  
-   `data-testid="shortBio"`
-
-5. **Current Location**  
-   - Your current city and country are displayed with the attribute:  
-   `data-testid="currentLocation"`
-
-6. **Email Address**  
-   - A professional email address is added with the attribute:  
-   `data-testid="emailAddress"`
-
-7. **Social Links**  
-   - Links to your professional social profiles (e.g., LinkedIn, GitHub, Twitter) are included with the attribute:  
-   `data-testid="socialLinks"`
-
-8. **Current Time in UTC**  
-   - The current time in **UTC** format is displayed with the attribute:  
-   `data-testid="currentTimeUTC"`
-
----
-
-## How to View the Profile Card
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/tripleAay/PROFILE-CARD.git
-   

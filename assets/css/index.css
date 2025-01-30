@@ -16,18 +16,7 @@ body {
     justify-content: center;
 }
 
-profile-card {
-    width: 320px;
-    height: 420px;
-    background: #FFFCFF;
-    border-radius: 16px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
-        0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    overflow: hidden;
-}
+
 
 .profile-card2 {
     width: 350px;
@@ -48,7 +37,7 @@ profile-card {
     margin-bottom: 8px;
 }
 
-/* Bio */
+
 .profile-bio {
     font-size: 14px;
     color: #555;
@@ -59,7 +48,7 @@ profile-card {
     margin-bottom: 30px;
 }
 
-/* Profile Info */
+
 .profile-info {
     background: #f9f9f9;
     padding: 8px 15px;
@@ -72,17 +61,11 @@ profile-card {
     transition: background 0.3s;
 }
 
-/* Hover effect on info blocks */
+
 .profile-info:hover {
     background: #E2E8CE;
 }
 
-/* Hover effect */
-.profile-card:hover {
-    transform: translateY(-5px); /* Slight lift effect */
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25), 
-                0 6px 8px rgba(0, 0, 0, 0.12); /* More depth on hover */
-}
 
 
 .profile-card img {
@@ -91,7 +74,7 @@ profile-card {
     object-fit: cover;
     object-position: center top;
     margin-top: 30px;
-   
+
     margin-bottom: 15px;
 }
 
@@ -148,31 +131,35 @@ h4 {
 
 
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
 
-/* Profile card styles */
+/* wfegggggggggggggggggg */
+
+
+
+
 .profile-card {
     width: 320px;
     height: 420px;
-    background: #FFFCFF;
+    /* background: #FFFCFF; */
     border-radius: 16px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 
-                0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+        0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     overflow: hidden;
+
+    background: rgb(235,245,238);
+background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1) 94%);
 }
 
 .profile-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3), 
-                0 6px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3),
+        0 6px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile picture styling */
+
 .profile-img {
     width: 120px;
     height: 120px;
@@ -186,7 +173,7 @@ body {
     transform: scale(1.1);
 }
 
-/* Profile name and title styling */
+
 .profile-name {
     font-size: 1.5rem;
     font-weight: 600;
@@ -200,7 +187,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Social links styling */
+
 .social-links {
     display: flex;
     justify-content: center;
@@ -217,7 +204,7 @@ body {
     color: #F25F5C;
 }
 
-/* Add hover effects for the social icons */
+
 .social-link i {
     transition: transform 0.3s ease-in-out;
 }

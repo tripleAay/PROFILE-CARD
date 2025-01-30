@@ -243,5 +243,14 @@ background: linear-gradient(185deg, rgba(235,245,238,1) 55%, rgba(131,231,245,1)
 @media (max-width: 768px) {
     .container {
         padding-top: 80px; /* Increase spacing above */
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 375px) {
+    .container {
+        padding-top: 80px; /* Increase spacing above */
+        display: flex;
+        flex-wrap: wrap;
     }
 }
